@@ -17,5 +17,6 @@ Nous avons commencé le projet le 28/11/2022 et nous l'avons rendu le 16/01/2023
 
 ## Rendu
 
-L'intégralité des fichiers que nous avons rendu ce situent dans le répertoire : [Contenu](https://github.com/NoeVgn/IUT-Projets/tree/main/Projet%20S102/Contenu)
-En plus d'un rendu de fichiers du programme, nous avons été noté sur une soutenance de notre projet à l'oral. Par exemple : Pourquoi avons nous choisi cet algorithme ? Si je modifie cela que ce passe-t-il ? Etc.
+L'intégralité des fichiers que nous avons rendu ce situent dans le répertoire : [Contenu](https://github.com/NoeVgn/IUT-Projets/tree/main/Projet%20S102/Contenu).
+
+En plus d'un rendu de fichiers du programme, nous avons été noté sur des questions posées à propos de notre projet à l'oral. Par exemple : Pourquoi avons nous choisi cet algorithme ? Si je modifie cela que ce passe-t-il ? Etc.
