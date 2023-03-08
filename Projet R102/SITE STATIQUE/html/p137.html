@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p136.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 137 -->
+
+      <h2 id="137">137</h2>
+      <p>Vous marchez jusqu'à une grande fenêtre qui paraît mal fermée. De toute façon, même si 
+          vous aviez pu l'ouvrir, il vous aurait été impossible de vous glisser à travers ses barreaux. 
+          Cette maison semble être particulièrement à l'abri des intrus ! Maintenant, allez-vous 
+          faire le tour du Manoir, pour voir d'où provient la lumière (rendez-vous au <a href="p345.html">345</a> ), ou 
+          préférez-vous revenir à la porte d'entrée pour tirer le cordon de sonnette (rendez-vous au 
+          <a href="p275.html">275</a> ), ou frapper à l'aide du marteau (rendez-vous au <a href="p357.html">357</a> ) ?</p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p151.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

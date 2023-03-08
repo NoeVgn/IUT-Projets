@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p8.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 37 -->
+
+      <h2 id="37">37</h2>
+      <p>Une plaquette fixée sous le tableau vous indique que vous vous tenez devant le Duc de 
+          Brewster (1763-1828). Un personnage d'une élégance raffinée ! Mais soudain vous faites 
+          un bond en arrière : vous pourriez jurer que les yeux du Duc ont <em>bougé</em> ! Très vite, vous 
+          avez la confirmation de votre doute : les yeux du portrait bougent, et cherchent à attirer 
+          votre attention sur l'une des portes du hall. Mais que vous arrive-t-il ? Votre voiture 
+          tombe en panne en pleine campagne, puis vous vous retrouvez dans une maison à moitié 
+          abandonnée et pourtant luxueuse, dont les tableaux s'animent... Allez-vous regagner votre 
+          fauteuil en attendant l'arrivée du Comte (rendez-vous au <a href="p277.html">277</a> ), ou allez-vous vous diriger 
+          vers la porte que vous a indiquée le portrait (rendez-vous au <a href="p391.html">391</a> ) ? Mais vous pouvez 
+          également vous intéresser à un autre portrait (rendez-vous au <a href="p250.html">250</a> ).</p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p68.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

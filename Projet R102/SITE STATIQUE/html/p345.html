@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+	  <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p317.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 345 -->
+
+      <h2 id="345">345</h2>
+      <p>La fenêtre éclairée est proche d'une petite porte donnant sur une cuisine. Des voix 
+          proviennent de l'intérieur de la pièce, mais vous ne pouvez apercevoir les interlocuteurs 
+          qui doivent se tenir contre le mur, hors de votre champ de vision.</p>
+      <p id="txtcentre">Tournez la page...</p>
+      <img src="../img/img-sec345.jpg"/>
+      <p>Vous tendez l'oreille pour essayer de saisir quelques mots de la conversation. Il semble 
+          qu'il y ait deux personnes dans la cuisine, et elles parlent avec excitation : « ... Le Maître 
+          est prêt, et je commence à être impatient, car c'est la première fois que je participe à <em>cela</em>. 
+          Etes-vous vraiment sûr qu'<em>il</em> va venir ? » Une autre voix d'homme répond plus calmement 
+          : « Cette affaire m'inquiète. Elle est si jeune ! De plus, elle est arrivée ici en toute 
+          innocence. Je ne sais vraiment pas... » Les deux hommes font quelques pas dans la 
+          cuisine, et vous pouvez enfin les voir. Tous deux sont vêtus de toges blanches, et l'un est 
+          beaucoup plus jeune que l'autre. Qu'allez-vous faire : allez-vous frapper à la porte en 
+          espérant qu'ils vous laisseront entrer (rendez-vous au  <a href="p207.html">207</a> ), ou préférez-vous rester caché 
+          pour essayer d'en apprendre davantage (rendez-vous au  <a href="p68.html">68</a> ) ?</p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p357.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

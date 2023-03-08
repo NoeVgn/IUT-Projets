@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p190.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 207 -->
+
+      <h2 id="207">207</h2>
+      <p>« Qu'est-ce que c'est ?, marmonne le vieil homme. Qui peut bien frapper à la porte à une 
+          heure pareille ? Serait-ce l'un des Frères ? Je croyais pourtant que tout le monde était 
+          arrivé... » Les deux hommes chuchotent alors entre eux, et leur voix est trop faible pour 
+          que vous puissiez comprendre quoi que ce soit. Vous attendez patiemment sous la pluie. 
+          Finalement la porte s'ouvre et une voix demande : « Qui est là ? » Allez-vous les mettre 
+          au courant de votre mésaventure et leur demander la permission de téléphoner (rendez-
+          vous au  <a href="p95.html">95</a> ), ou allez-vous prétendre que vous êtes l'un des Frères auxquels ils ont fait 
+          allusion (rendez-vous au  <a href="p267.html">267</a> ) ? </p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p238.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

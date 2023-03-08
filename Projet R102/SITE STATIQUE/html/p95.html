@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p68.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 95 -->
+
+      <h2 id="95">95</h2>
+      <p>La porte s'ouvre en grand, et le vieil homme vous regarde d'un air interrogateur avant de 
+          vous laisser entrer. Les deux hommes vous écoutent alors pendant que vous leur racontez 
+          ce qui vous est arrivé. « C'est vraiment de la malchance, dit le vieil homme, mais 
+          probablement Franklin pourra-t-il vous aider. Allez le chercher Frère Fabien. » Le jeune 
+          homme lance un regard furieux à son compagnon, mais quitte néanmoins la cuisine. Vous 
+          posez alors quelques questions à votre hôte pour essayer de savoir où vous vous trouvez, 
+          et si lui-même et le Frère Fabien sont membres d'une secte quelconque. « En quelque 
+          sorte, répond-il. En fait, votre arrivée est un peu embarrassante, car cette nuit... » Il vous 
+          regarde alors avec nervosité « car cette nuit... » Il est interrompu par l'arrivée du Frère 
+          Fabien, accompagné d'un homme de haute taille vêtu d'un habit sombre : Franklin, très 
+          certainement, à qui vous expliquez la raison de votre présence. Il vous écoute sans qu'un 
+          pli de son visage ne bouge, et vous déclare d'un ton impassible lorsque vous avez terminé 
+          votre récit : « Les étrangers ne sont pas les bienvenus ici. Mais je vais vous conduire 
+          auprès du Maître qui décidera s'il peut vous venir en aide. Veuillez me suivre. » Précédé 
+          de Franklin, vous traversez la cuisine, et vous suivez un couloir qui finit par déboucher 
+          sur un vaste hall d'entrée. « Attendez ici pendant que je préviens le Comte », vous 
+          ordonne-t-il avant de disparaître. Rendez-vous au <a href="p8.html">8</a> .</p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p111.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

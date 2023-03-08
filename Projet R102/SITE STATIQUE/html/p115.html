@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p111.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 115 -->
+
+      <h2 id="115">115</h2>
+      <p>Vous oubliez vos soucis en voyant apparaître le canard rôti ! Le Comte a choisi lui aussi 
+          du canard, et, tandis que vous le savourez, vous poursuivez votre conversation. Il vous 
+          demande la raison qui vous a conduit sur cette route déserte en plein milieu de la nuit, et 
+          vous lui parlez du vieil homme, et de la mauvaise direction qu'il vous a indiquée, ou que 
+          vous avez prise. A votre tour, vous lui posez des questions sur lui-même et sur sa famille 
+          (rendez-vous au <a href="p28.html">28</a> ).</p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p136.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

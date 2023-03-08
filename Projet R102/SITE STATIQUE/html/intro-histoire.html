@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+	<link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="indications.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+        <h1>Une Tempête Infernale</h1>
+        <p>La pluie qui s'est mise à tomber ruisselle sur votre pare-brise, et même en tendant la tête
+            au-dessus du volant, vous ne distinguez plus qu'une muraille d'eau devant vous. C'est en
+            vain que les essuie-glaces poursuivent leur combat incessant car la pluie redouble de
+            violence. Vous êtes obligé de ralentir ; vos phares luttent pour éclairer la route.</p>
+        <p>Vous envoyez à tous les diables le vieil homme aux cheveux blancs qui vous a expédié
+            dans ce chemin défoncé. Il avait probablement voulu dire de tourner à gauche au
+            deuxième croisement, à moins que ce ne soit à droite... Le vieil idiot ! Peut-être tout
+            simplement s'est-il moqué de vous ? Et d'ailleurs n'avez-vous pas remarqué une lueur
+            malveillante, sinistre même, dans son regard ?</p>
+        <p>Allons donc ! Vous avez tout simplement tourné au mauvais moment, et cet effroyable
+            orage vous a surpris dans la nuit. La pluie va certainement cesser bientôt... Il n'est pas
+            possible qu'un tel déluge puisse durer bien longtemps encore.</p>
+        <p>Et alors vous pourrez... ATTENTION ! ! ! Vous donnez un violent coup de volant à
+            gauche pour éviter une silhouette qui, venue de nulle part, a surgi dans le faisceau de vos
+            phares. La voiture bondit et rebondit sur les pierres et dans les ornières du chemin, avant
+            de terminer sa course dans un fossé...</p>
+        <p>Vous reprenez vos esprits. Vous n'êtes pas blessé, mais vous êtes totalement hébété.
+            Alors, vous vous rappelez : <em>le corps</em> ! Vous avez percuté la silhouette qui est apparue
+            devant vous : il n'était pas possible de l'éviter. Vous jaillissez hors de la voiture, priant le
+            ciel pour qu'il soit encore en vie.</p>
+        <p>Vos vêtements sont vite détrempés comme vous revenez en boitant sur le chemin. Il est
+            difficile de distinguer quelque chose dans l'obscurité. <em>Mais il n'y a pas trace d'un corps</em>.</p>
+        <p>Vous réfléchissez. Après tout, êtes-vous bien certain d'avoir aperçu quelqu'un? N'était-ce
+            pas tout simplement un jeu de lumière? Mais non : vous vous rappelez les bras tendus
+            juste devant votre voiture et le visage déformé par la terreur.</p>
+        <p>Le <em>visage!</em> Il avait quelque chose de familier. Vous le connaissez... c'était celui d'un vieil
+            homme aux cheveux blancs... Non, ce n'est pas possible ! Votre cœur cogne dans votre
+            poitrine et, en frissonnant de peur, vous regagnez votre voiture. Vous vous installez au
+            volant et vous tournez violemment la clé de contact : le moteur toussote, s'étouffe puis
+            cale. Vous tournez la clé à nouveau ; mais cette fois, le moteur ne répond plus que par un
+            léger tressautement. Vous vous cramponnez au volant et vous le secouez avec la force du
+            désespoir comme si vous vouliez communiquer un peu de vie au véhicule. Mais la
+            batterie est morte. Votre voiture passera certainement la nuit dans le fossé.</p>
+        <p>La situation n'est pas brillante car vous ne pouvez rien faire sans votre voiture. Où
+            trouver de l'aide ? Vous avez dépassé un garage à Mingleford, mais c'était à une trentaine
+            de kilomètres de là. Comme pour répondre à votre inquiétude, une lumière apparaît au
+            loin. Quelqu'un a allumé une lampe de chevet ! Quelle chance ! Voilà plus de vingt
+            kilomètres que vous n'avez vu aucune habitation, et vous êtes tombé en panne à proximité
+            de la demeure de quelqu'un ! Vous boutonnez votre manteau et vous sortez de la voiture.
+            Le bâtiment, une espèce de manoir, vous apparaît alors plus distinctement. Un peu plus
+            en avant sur la gauche, à environ cinq minutes de marche, une allée y conduit. Le temps
+            d'y parvenir vous serez trempé jusqu'aux os. Mais comment faire autrement pour appeler
+            un garage? Vous ne pouvez vous permettre de ne pas être à votre rendez-vous demain
+            matin. De toute façon, il vous sera certainement possible de vous sécher après avoir
+            téléphoné. Vous claquez la porte de votre voiture, remontez le col de votre manteau, et
+            vous vous dirigez vers la maison. Un éclair la fait complètement sortir de l'obscurité
+            mais, préoccupé par la pluie, vous ne prêtez pas attention à l'avertissement qui vous est
+            donné. Le manoir est vieux - très vieux - et il aurait grand besoin d'entretien. A travers la
+            fenêtre, la lumière vacille. La lumière d'une bougie ou d'une lampe à huile, certainement,
+            pas celle d'une ampoule électrique. Et vous n'avez pas remarqué un détail qui aurait pu
+            encore vous faire rebrousser chemin : aucune ligne téléphonique n'arrive à la maison.
+            Alors que vous gravissez les marches du perron, vous êtes loin, très loin d'imaginer le
+            sort qui vous est réservé. Car la nuit qui commence s'inscrira pour toujours parmi les plus
+            effroyables souvenirs de votre existence...</p>
+        <p>Et maintenant, tournez la <u class="underline">page</u> !</p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p1.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

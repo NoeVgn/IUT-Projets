@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="intro-histoire.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 1 -->
+
+      <h2 id="1">1</h2>
+      <p>Vous grimpez les marches quatre à quatre et, arrivé devant la porte du Manoir, vous vous 
+          arrêtez un instant pour reprendre votre souffle. Bien que vous ayez couru tout le long du 
+          chemin, la pluie a transpercé vos vêtements, et vos pieds sont complètement trempés. A 
+          en juger par le nombre de flaques d'eau dans lesquelles vous avez pataugé, il en coûterait 
+          une véritable fortune pour remettre l'allée en état. Maintenant à l'abri du porche, vous 
+          secouez vos vêtements imbibés d'eau. La pluie tombe toujours à verse, mais il règne
+          pourtant un étrange silence</p>
+      <img src="../img/img-sec1.jpg"/>
+      <p>Aucune lumière ne brille au rez-de-chaussée, et vous faites quelques pas en arrière pour 
+          essayer d'apercevoir la fenêtre qui avait attiré votre attention : les fenêtres du premier 
+          étage sont plongées dans l'obscurité ; la lumière que vous aviez vue a disparu. L'endroit 
+          semble complètement désert. C'est alors que vous prenez conscience de l'heure : il est 
+          minuit moins cinq et tous les habitants de la maison dorment probablement. Une chouette 
+          hulule dans le lointain et un frisson vous parcourt l'échine. Vous commencez à éprouver 
+          quelque frayeur de la situation dans laquelle vous vous trouvez : égaré en pleine 
+          campagne, sur le seuil d'une vieille maison à moitié en ruine, et à l'allure inquiétante, et, 
+          sur le point de réveiller quiconque peut l'habiter... à minuit! Vous ne serez certainement 
+          pas accueilli à bras ouverts, mais si vous tenez à être présent à votre rendez-vous, demain 
+          matin, vous n'avez pas le choix : vous devez trouver un téléphone pour demander de 
+          l'aide.</p>
+      <p>Alors que vous vous tournez vers la porte d'entrée, vous remarquez une lueur sourde 
+          provenant du côté gauche du Manoir : une lampe vient d'être allumée. Quelqu'un est donc 
+          éveillé, et vous poussez un soupir de soulagement. Au milieu de la porte est fixé un 
+          marteau sculpté, et un cordon de sonnette pend à votre droite. Allez-vous frapper à l'aide 
+          du marteau (rendez-vous au <a href="p357.html">357</a>), tirer le cordon de sonnette (rendez-vous au <a href="p275.html">275</a> ), ou 
+          préférez-vous vous diriger vers la lumière en contournant le Manoir (rendez-vous au <a href="p289.html">289</a>
+          )?</p>
+    </main>
+    <a href="p8.html"><button id="right">&#x276f;</button></a>
+
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+  </body>
+</html>

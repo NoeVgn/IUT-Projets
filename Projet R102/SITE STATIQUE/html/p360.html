@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+	  <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p357.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 360 -->
+
+      <h2 id="360">360</h2>
+      <p>En serrant les dents, vous poussez vos mains prisonnières contre la vitre, la corde en 
+          avant. Le coup cependant, n'est pas assez violent, et vous devez faire une seconde 
+          tentative. Cette fois, la vitre se brise, et quelques gros éclats de verre tombent sur le sol. 
+          Mais vous ne sortez pas indemne de cette action désespérée : vous avez en effet reçu une 
+          mauvaise blessure au poignet gauche. Déduisez 2 points de votre total d'ENDURANCE, 
+          et rendez-vous au  <a href="p317.html">317</a> . </p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p391.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

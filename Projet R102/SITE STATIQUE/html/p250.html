@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+	  <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p244.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 250 -->
+
+      <h2 id="250">250</h2>
+      <p>Vous vous approchez d'un portrait sous lequel figure la mention « Duchesse de Brewster, 
+          (1777-1845). » </p>
+      <p  id="txtcentre">Tournez la page...</p>
+      <img src="../img/img-sec250.jpg"/>
+      <p>Il représente une femme âgée d'aspect sévère, et au regard glacial ; une femme à n'en pas 
+          douter d'origine noble. Mais alors que vous le regardez, le portrait semble frémir. Vous 
+          clignez des yeux, et vous essayez de détourner votre regard. Impossible ! De légers 
+          frémissements agitent le visage peint et, bouche bée, vous voyez ses yeux se tourner vers 
+          vous. Ajoutez 1 point à votre total de PEUR. Ses lèvres remuent alors, et une voix vous 
+          déclare : « Étranger, sans le savoir, vous avez pénétré dans un endroit maudit, et 
+          j'aimerais pouvoir vous prier de vous en éloigner. Mais hélas ! vous ne pouvez vous 
+          échapper. Le mal et la douleur règnent en ces lieux que vous ne pourrez quitter que si 
+          vous les faites disparaître. Mais cela est presque impossible également. Je peux cependant 
+          vous révéler ceci : écoutez attentivement. Vous avez un allié dans cette Maison ; un allié 
+          qui peut vous aider. Il est vêtu d'une toge grise, et ensemble, vous pouvez libérer le 
+          Manoir de l'emprise du diable qui l'habite. » A ces mots, le frissonnement cesse. Vous 
+          vous frottez les yeux, puis vous regardez de nouveau le portrait, mais il a repris sa 
+          parfaite immobilité. Rendez-vous au  <a href="p277.html">277</a> .</p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p267.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>

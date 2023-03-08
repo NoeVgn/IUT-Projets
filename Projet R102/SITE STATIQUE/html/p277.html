@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>Le Manoir de l'Enfer</title>
+    <link href="../css/switchtheme.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/global.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/liseuse.css" rel="stylesheet" type="text/css"/>
+	  <link href="../css/histoire.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div id="left-button-col">
+      <a><button id="switch-theme">Changer le thème</button></a>
+      <a href="p275.html"><button id="left">&#x276e;</button></a>
+    </div>
+    <main>
+      <!-- PAGE 277 -->
+
+      <h2 id="277">277</h2>
+      <p>Vous entendez soudain un bruit de pas et l'homme vêtu de sombre réapparaît précédant 
+          un personnage de haute taille portant une veste d'intérieur pourpre. « Permettez-moi de 
+          vous présenter Lord Kelnor, Comte de Brume », dit-il. Le Comte vous tend la main. Son 
+          regard vous transperce et ses lèvres esquissent un pâle sourire.</p>
+      <p  id="txtcentre">Tournez la page...</p>
+      <img src="../img/img-sec277.jpg"/>
+      <p>A peine avez-vous commencé à lui raconter votre mésaventure qu'il vous interrompt d'un 
+          signe de la main. « Je vous en prie, dit-il. Je vois que vous avez été pris dans cette 
+          épouvantable tempête ; allons nous installer devant un bon feu, et voyons comment nous 
+          pouvons vous venir en aide. » Puis, se tournant vers son majordome, il ajoute : « 
+          Franklin, dites au cuisinier de préparer quelque chose de chaud pour notre visiteur. » 
+          Vous protestez en lui disant que vous ne voulez le déranger en aucune façon, mais, sans 
+          vous prêter la moindre attention, il vous conduit jusqu'à un salon où brûle un feu de bois. 
+          Vous vous débarrassez de votre manteau, et vous vous installez confortablement dans un 
+          fauteuil. Bientôt la chaleur du feu commence à chasser vos sombres pensées. D'autant 
+          plus que Franklin est vite de retour, portant un plateau sur lequel sont posés deux verres 
+          de cognac. Allez-vous vous détendre en dégustant le cognac, puis demander à votre hôte 
+          la permission d'utiliser le téléphone (rendez-vous au  <a href="p394.html">394</a> ), ou préférez-vous attendre 
+          qu'il vous questionne (rendez-vous au  <a href="p111.html">111</a> ) ? </p>
+    </main>
+    
+    <script> /* PARTIE JAVA SCRIPT*/
+
+      const switchThemeBtn = document.querySelector('#switch-theme')
+      let toggleTheme = 0;
+
+      switchThemeBtn.addEventListener('click', () => {
+
+        if(toggleTheme === 0) {
+
+          document.documentElement.style.setProperty('--ecriture', '#1c1c1c');
+          document.documentElement.style.setProperty('--background', '#a7a7a7');
+          document.documentElement.style.setProperty('--backgroundbis', '#f1f1f1');
+          toggleTheme++;
+
+        }else {
+          
+          document.documentElement.style.setProperty('--ecriture', '#f1f1f1');
+          document.documentElement.style.setProperty('--background', '#1c1c1c');
+          document.documentElement.style.setProperty('--backgroundbis', '#2f2f2f');
+          toggleTheme--;
+
+        }
+
+      })
+
+    </script>
+    <a href="p289.html"><button id="right">&#x276f;</button></a>
+  </body>
+</html>
