@@ -2,7 +2,7 @@
 
 ## Consignes
 
-Le but du projet S102 nommé ">Comparaison d'approches algorithmiques"
+Le but du projet S102 nommé > Comparaison d'approches algorithmiques
 
 
 replit
