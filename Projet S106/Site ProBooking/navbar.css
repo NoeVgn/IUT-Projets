@@ -1,0 +1,87 @@
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10rem;
+	width: 100%;
+	height: 8rem;
+  /* Navbar qui reste en haut de l'écran */
+  position: fixed;
+  z-index: 99;
+}
+
+.logo-probooking {
+	width: 8rem;
+}
+
+.navigation ul {
+	display: flex;
+	gap: 2.5rem;
+}
+
+.navigation ul {
+	list-style: none;
+}
+
+.navigation ul li a {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.1rem;
+  font-weight: 500;
+	transition: ease-in-out .3s;
+  background-color: transparent;
+  padding: .75rem 1rem;
+  border-radius: 0;
+}
+
+/* Tous les éléments de navigation qui ne sont pas spéciaux */
+.navigation ul li a:not(.inscription):not(.active):hover {
+	color: #ffc822;
+	/*reférence à la couleur du texte "PRO" dans le logo*/
+	border-radius: 10px;
+	/*Légère animation d'arrondissement des bordures*/
+	background-color: #181818;
+  box-shadow: 0 0 20px #ffc82230;
+}
+
+.navigation ul li a.active {
+  color: #ffc822;
+  background-color: #ffc82220;
+  border-radius: 10px;
+}
+
+.navigation ul li a.active:hover {
+  box-shadow: 0 0 20px #ffc82230;
+}
+
+.navigation ul li a.inscription {
+  border: 2px solid #ffc822;
+  border-radius: 10px;
+  color: #ffc822;
+}
+
+
+/*Responsive de la nav-bar*/
+
+
+@media (max-width: 1300px) {
+  .logo-probooking {
+    display:none;
+  }
+
+  .navigation {
+    justify-content: center;
+    padding: 0rem;
+    margin-left:0;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigation ul {
+	gap: 0.5rem;
+  }
+  .navigation ul li a {
+    font-size:0.55rem;
+  }
+}
