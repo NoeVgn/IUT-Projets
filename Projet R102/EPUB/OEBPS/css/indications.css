@@ -1,0 +1,17 @@
+* {
+    text-align: start;
+}
+
+p {
+    font-weight: 1rem;
+}
+
+body {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+h1 {
+    font-weight: 1.5rem;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 95vh;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+#auteur {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#titres {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#trad {
+    font-style: italic;
+    margin-bottom: 0rem;
+}
+
+#img {
+    margin-bottom: 7.5rem;
+}
+
+#illu {
+    font-size: 1.1rem;
+}
+
+#editeur {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}

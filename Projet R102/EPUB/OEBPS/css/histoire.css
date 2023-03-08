@@ -1,0 +1,33 @@
+p {
+    font-size: 1rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#txtcentre  {
+    text-align: center;
+    font-style: italic;
+}
+
+#underline {
+    text-decoration: underline
+}

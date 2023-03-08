@@ -1,0 +1,58 @@
+#livrehero {
+    width: 60%;
+    float:left;
+    margin:0.5rem;
+}
+
+#defisfantastiques {
+    width: 60%;
+    margin:0.5rem;
+}
+
+#codebarre {
+    width: 60%;
+    margin:0.5rem;
+}
+
+#titre1 {
+    background-color: rgb(212,108,117);
+    margin:0;
+    text-align: center;
+}
+
+#titre2 {
+    background-color: rgb(234,219,222);
+    margin:0;
+    text-align: center;
+}
+
+#a {
+    text-align: center;
+    color:white;
+    margin-top:15rem;
+    font-size: 1.7rem;
+}
+
+#b {
+    text-align: center;
+    color:white;
+    margin-top:5rem;
+    font-size: 1.7rem;
+}
+
+#droite {
+    float:right;
+    padding-top:3rem;
+}
+
+#gauche {
+    float:left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+body {
+    background-image: url('../img/img-fond4emecouverturejpg.jpg');
+    display:flex;
+  }

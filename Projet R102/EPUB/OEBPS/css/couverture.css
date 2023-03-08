@@ -1,0 +1,8 @@
+body {
+    display:flex;
+}
+
+#Couverture {
+    margin-left: auto;
+    margin-right: auto;
+}

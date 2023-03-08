@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:identifier id="BookID" opf:scheme="UUID">urn:uuid:da5011be-781d-4ff0-9f46-f2a9b9ee9742</dc:identifier>
+		<dc:title>Le Manoir de l'Enfer</dc:title>
+		<dc:creator opf:role="aut" opf:file-as="Vengeon, Noé">Noé Vengeon</dc:creator>
+		<dc:date>2022-10-15T12:00:00+00:00</dc:date>
+		<dc:description>Un livre dont vous êtes le héros, au format EPUB</dc:description>
+		<dc:subject>Livre dont vous êtes le héros</dc:subject>
+		<dc:language>fr</dc:language>
+	</metadata>
+	<manifest xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<!-- IMG -->
+		<item href="img/img-couverture.jpg" id="img-couverture" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-peur.jpg.jpg" id="img-peur" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-Feuille-daventure.jpg" id="img-Feuille-daventure" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-pdg.jpg" id="img-pdg" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-sec1.jpg" id="img-sec1" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-sec136.jpg" id="sec136" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-sec190.jpg" id="img-sec190" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-sec250.jpg" id="img-sec250" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-sec277.jpg" id="img-sec277" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-sec345.jpg" id="img-sec345" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-unlivredontvouseteslehero.png" id="img-unlivredontvouseteslehero" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-defisfantastiques.png" id="img-defisfantastiques" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-codebarre.png" id="img-codebarre" media-type="image/jpeg" properties="cover-image"/>
+		<item href="img/img-fond4emecouverturejpg" id="img-fond4emecouverturejpg" media-type="image/jpeg" properties="cover-image"/>
+		<!-- CSS -->
+		<item href="css/couverture.css" id="couverture_css" media-type="text/css"/>
+		<item href="css/page-de-garde.css" id="page-de-garde_css" media-type="text/css"/>
+		<item href="css/mecanismes.css" id="mecanismes_css" media-type="text/css"/>
+		<item href="css/indications.css" id="indications_css" media-type="text/css"/>
+		<item href="css/histoire.css" id="histoire_css" media-type="text/css"/>
+		<item href="css/copyright.css" id="copyright_css" media-type="text/css"/>
+		<item href="css/4emecouverture.css" id="4emecouverture_css" media-type="text/css"/>
+		<!-- HTML -->
+		<item href="html/couverture.xhtml" id="couverture_html" media-type="application/xhtml+xml"/>
+		<item href="html/page-de-garde.xhtml" id="page-de-garde_xhtml" media-type="application/xhtml+xml"/>
+		<item href="html/mecanismes.xhtml" id="mecanismes_xhtml" media-type="application/xhtml+xml"/>
+		<item href="html/indications.xhtml" id="indications_xhtml" media-type="application/xhtml+xml"/>
+		<item href="html/histoire.xhtml" id="histoire_xhtml" media-type="application/xhtml+xml"/>
+		<item href="html/copyright.xhtml" id="copyright_xhtml" media-type="application/xhtml+xml"/>
+		<item href="html/4emecouverture.xhtml" id="4emecouverture_xhtml" media-type="application/xhtml+xml"/>
+	</manifest>
+	<spine xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<itemref idref="couverture_html"/>
+		<itemref idref="page-de-garde_xhtml"/>
+		<itemref idref="mecanismes_xhtml"/>
+		<itemref idref="indications_xhtml"/>
+		<itemref idref="histoire_xhtml"/>
+		<itemref idref="copyright_xhtml"/>
+		<itemref idref="4emecouverture_xhtml"/>
+	</spine>
+</package>
