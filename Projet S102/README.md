@@ -3,7 +3,7 @@
 ## Sujet
 
 Le but du projet S102 est de créer un jeu de carte. Il faut respecter les des règles du jeu qui sont déjà définies dans le sujet.
-Pour ce jeu de carte le langage de programmation demandé est le langage C++.
+Pour ce jeu de carte le langage de programmation à solliciter est le langage C++.
 
 Voilà l'essentiel du sujet. Les consignes complètes du projet se trouvent dans le répertoire [📁Consignes](https://github.com/NoeVgn/IUT-Projets/tree/main/Projet%20S102/Consignes).
 
