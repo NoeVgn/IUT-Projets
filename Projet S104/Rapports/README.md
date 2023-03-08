@@ -17,7 +17,7 @@
 
 ### Plus d'informations
 
- Les consignes fournies complètes sont consultable via le fichier [📋CONSIGNES.pdf]()
+ Les consignes fournies complètes sont consultable via le fichier [📋CONSIGNES.pdf](https://github.com/NoeVgn/IUT-Projets/blob/main/Projet%20S104/CONSIGNES.pdf)
 
 ---
 
