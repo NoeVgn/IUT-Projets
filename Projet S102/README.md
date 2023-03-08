@@ -13,7 +13,7 @@ Pour travailler en binôme, moi et mon coéquipier, avons utiliser la plateforme
 
 ## Date de réalisation
 
-Nous avons commencé le projet le 28/11/2023 et nous l'avons fini le 16/11/2023.
+Nous avons commencé le projet le 28/11/2022 et nous l'avons rendu le 16/01/2023.
 
 ## Rendu
 
