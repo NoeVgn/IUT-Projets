@@ -1,4 +1,4 @@
-# Phases de travail
+# 🗓️Phases de travail
 
 
 ## **Phase 1 : travail individuel**
@@ -17,7 +17,7 @@
 
 ### Plus d'informations
 
- Les consignes fournies complètes sont consultable via le fichier [CONSIGNES.pdf]()
+ Les consignes fournies complètes sont consultable via le fichier [📋CONSIGNES.pdf]()
 
 ---
 
