@@ -1,0 +1,49 @@
+:root {
+    --ecriture: #f7f7f7;
+    --background: #1c1c1c;
+    --backgroundbis: #2f2f2f;
+  }
+  
+#left-button-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    align-self: flex-start;
+    padding-top: 7.5rem;
+    align-items: flex-end;
+    width: 15rem; /* La largeur de ton petit bouton */
+  }
+  
+  #switch-theme {
+    background-color: var(--backgroundbis);
+    align-items: start !important; /* Aligner horizontalement au centre */
+    justify-content: start !important; /* Aligner verticalement au centre */
+    align-items: normal;
+    border: none;
+    color: var(--ecriture);
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 530;
+    display: flex;
+    font-size: 1.6rem;
+    margin: 4px 2px;
+    border-radius: 2rem;
+    transition: .2s;
+  }
+
+p, h1, h2, h3, h4, li {
+    color: var(--ecriture);
+}
+
+/* Animation quand la souris passe par dessus le bouton */
+#switch-theme:hover {
+  transform: translateY(-3px); /* Remonter un peu le bouton */
+  box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.3); /* Afficher une petite ombre comme si le bouton "flottait" */
+}
+
+/* Animation quand on clique sur le bouton */
+#switch-theme:active {
+  transform: translateY(2px); /* Redescendre un peu le bouton comme si on appuyait dessus */
+}

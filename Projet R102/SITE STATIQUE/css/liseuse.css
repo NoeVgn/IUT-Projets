@@ -1,0 +1,44 @@
+body {
+    background-color: var(--background); /* Couleur dark kakool */
+    display: flex; /* Flexbox */
+    align-items: center; /* Aligner horizontalement au centre */
+    justify-content: center; /* Aligner verticalement au centre */
+  }
+
+img {
+    mix-blend-mode: multiply;
+    padding:0;
+}
+
+  main {
+    display:block;
+    width: 41vw; /* + ou - 21 cm */
+    height: 100vh; /* Toute la hauteur de la page */
+    background-color: var(--backgroundbis); /* Ma texture de papier en fond */
+    margin: 0 3rem; /* Marges des deux côtés de mon main pour que les deux boutons soient pas collés */
+    overflow: auto; /* Sert à afficher une scrollbar dans le main si y a besoin de descendre dans la page pour X ou Y raison */
+  }
+
+  #left, #right {
+    background-color: var(--backgroundbis); /* Couleur bleue */
+    width: 15rem; /* 3rem de largeur */
+    height: 3rem; /* 3rem de longueur */
+    border-radius: 50px; /* Bouton rond */
+    border: none; /* Pas de bordure (noir par défaut) */
+    outline: none; /* Virer une autre bordure (je sais pas d'où elle sort mais c'est important) */
+    cursor: pointer; /* Souris en mode "click" sur les boutons */
+    font-size: 1.5rem; /* Grosse flèche */
+    color: var(--ecriture); /* Flèche de couleur blanche */
+    transition: .2s; /* Animations qui durent .2 secs */
+}
+
+/* Animation quand la souris passe par dessus le bouton */
+#left:hover, #right:hover {
+    transform: translateY(-3px); /* Remonter un peu le bouton */
+    box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.3); /* Afficher une petite ombre comme si le bouton "flottait" */
+}
+
+/* Animation quand on clique sur le bouton */
+#left:active, #right:active {
+    transform: translateY(2px); /* Redescendre un peu le bouton comme si on appuyait dessus */
+}

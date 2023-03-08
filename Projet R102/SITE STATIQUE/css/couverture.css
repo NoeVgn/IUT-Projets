@@ -1,0 +1,13 @@
+body {
+    display: flex;
+}
+
+main {
+    margin-left: 50rem;
+}
+
+#Couverture {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
