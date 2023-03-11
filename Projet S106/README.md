@@ -1,6 +1,5 @@
 # Sujet du projet S106
 
--------------------------
 
 ## Organisation et planning
 
