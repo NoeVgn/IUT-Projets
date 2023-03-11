@@ -1,4 +1,4 @@
-# Sujet du projet S106
+# Sujet du projet S106 - Création d'un site web
 
 
 ## Organisation et planning
