@@ -106,3 +106,21 @@ Un formulaire de contact avec un bouton inactif.
 Le formulaire doit permettre au visiteur d'indiquer son nom, adresse mail et message et de sélectionner une personne à contacter. Le formulaire est décoratif : vous verrez comment faire des formulaires actifs plus tard. Vous devez trouver et utiliser les éléments HTML appropriés.
 
 La carte doit utiliser un service externe tel que OpenStreetMaps ♡, Google Maps, Bing Maps... C'est à vous d'aller vous renseigner sur leur site.
+
+## Consignes de rendu
+Un seul membre du groupe doit déposer le site sur https://webdev.iut-orsay.fr/. Les consignes pour déposer sont là-bas, à tester à l'avance. Le site doit être visible à l'adresse :
+
+https://webdev.iut-orsay.fr/~login/coin
+Les autres membres du groupe doivent avoir à leur adresse (également dans /coin) une page contenant une redirection automatique vers le rendu . Attention aux majuscules !
+
+Si votre site n'est pas accessible à cette adresse, votre rendu n'est pas fait. Ne laissez que votre rendu et pas d'anciennes versions.
+
+Vous êtes responsable de tester à l'avance et de nous signaler les problèmes par mail (avec une capture d'écran et une explication du problème). Mais si vous ne trouvez pas d'autre solution, partagez un dossier du cloud de l'IUT avec nous.
+
+Rendu du projet : mercredi 30 novembre.
+
+Les projets sont récupérés automatiquement le lendemain matin.
+
+Si vous rendez en retard, vous devez nous envoyer un mail pour nous prévenir, et de nouveau quand vous faites le rendu. Chaque jour de retard donnera 0.5 pt de pénalité, mais nous vous donnerons deux ou trois jours de délai si vous nous avez prévenus professionellement à l'avance.
+
+A l'inverse, si vous ne respectez pas les consignes, cela nous donne plus de travail, et vous serez donc pénalisés sur votre note individuelle.
