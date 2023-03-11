@@ -1,3 +1,4 @@
 ---
-target: https://noevgn.github.io/
+layout: forward
+target: https://example.com
 ---
