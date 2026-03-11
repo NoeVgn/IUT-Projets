@@ -1,7 +1,7 @@
 # IUT-Projets
 📕 **Liste de mes projets :**
 
-- R102 : Conception d'un fichier EPUB (Electronic PUBlication) ainsi que d'un site statique pour un livre numéirque
+- R102 : Conception d'un fichier EPUB (Electronic PUBlication) ainsi que d'un site statique pour un livre numérique
 - S102 : Élaboration d'un jeu de cartes en langage de programmation C++
 - S103 : Installation d'un système d'exploitation (Raspberry Pi OS) sur une Raspberry et d'un logiciel de serveur web (Apache2),  _consignes et rapport en anglais_
 - S104 : Création d'une base de données pour gérer les commandes d'une grande entreprise
